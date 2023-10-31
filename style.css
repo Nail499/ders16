@@ -60,6 +60,7 @@ nav .icons ul li:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
     
 }
 
@@ -93,6 +94,7 @@ nav .icons ul li:hover{
             gap: 60px;
             flex-direction: column;
             justify-content: space-between;
+            margin: auto;
         }
         .s2 h1{
             font-size: 46px;
@@ -139,6 +141,7 @@ nav .icons ul li:hover{
             flex-wrap: wrap;
             gap: 30px;
             overflow:hidden ;
+            margin: auto;
         }
         .s3 .img1{
             width: 50%;
@@ -170,11 +173,11 @@ nav .icons ul li:hover{
             transition: .6s;
         }
         .s3 .img31{
-            height: 50%;
+            height: 45%;
             overflow: hidden;
         }
         .s3 .img32{
-            height: 50%;
+            height: 45%;
             overflow: hidden;
         }
         .s3 img:hover{
@@ -260,7 +263,7 @@ nav .icons ul li:hover{
        .s5 .video img{
         position: relative;
         width: 100%;
-        object-fit: cover;
+        height: 100%;
         
        }
        .s5 .video div{
@@ -281,7 +284,7 @@ nav .icons ul li:hover{
         align-items: center;
         color: white;
         left: 0;
-        margin-top: 380px;
+        bottom: 0;
        
     }
     .s5 .video .next div{
@@ -417,6 +420,14 @@ nav .icons ul li:hover{
                         .s1 .container .text{
                             width: 100%;
                         }
+                        .s2{
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .s2 .boxes{
+                            justify-content: center;
+                            align-items: center;
+                        }
                         .s3{
                             padding: 0;
                         }
@@ -429,6 +440,14 @@ nav .icons ul li:hover{
                        .s3 .img3{
                         width: 100%;
                        }
+                       .s4{
+                        margin: 0;
+                       }
+                       .s4 .boxes {
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0;
+                       }
                        .s6 .container .text{
                         display: none;
                        }
@@ -439,13 +458,39 @@ nav .icons ul li:hover{
                         width: 50%;
                        }
                        .s6 .container .text{
-                        width: 100%;
-                        
+                  
+                        display: none;
                        }
                        .s6{
                         margin: 0;
+                        justify-content: center;
+                        align-items: center;
+                        display: block;
+                        flex-direction: column;
+                       }
+                       .s6 .photo{
+                        margin: 0;
+                        justify-content: center;
+                        align-items: center;
+                        left: 0;
                        }
                        .s5{
                         display: none;
+                       }
+                       .s7{
+                        justify-content: center;
+                        align-items: center;
+                       }
+                       .s8{
+                        flex-direction: column;
+                       }
+                       .s8 .foot{
+                        flex-direction: column;
+                        padding: auto;
+                       }
+                       .footer{
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
                        }
                     }
